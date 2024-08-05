@@ -15,7 +15,7 @@ This program is in a very crude state, it has not GUI and require editing a conf
 - Maybe some other unknown requirements ?
 
 ## Installation:
-Install the Interception driver for this program to work, see https://github.com/oblitum/Interception
+You need to install the Interception driver for this program to work, see https://github.com/oblitum/Interception
 
 Unzip the release binaries into your folder of choice.
 
