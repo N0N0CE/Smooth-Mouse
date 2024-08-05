@@ -3,28 +3,28 @@
 This Windows program aims to give a good smoothing to the mouse input. To do so it syncs the mouse's refresh rate to the monitor's one, 
 then it applies a simple decay function to the mouse's positions.
 
-### State of the project:
+## State of the project:
 
 This program is in a very crude state, it has not GUI and require editing a config file to change it's parameters.
 
-### Requirements:
+## Requirements:
 
 - A mouse !
 - A Windows system (10 is working at least)
 - The Interception driver (https://github.com/oblitum/Interception)
 - Maybe some other unknown requirements ?
 
-### Installation:
+## Installation:
 Install the Interception driver for this program to work, see https://github.com/oblitum/Interception
 
 Unzip the release binaries into your folder of choice.
 
-### Usage:
+## Usage:
 Edit the config.cfg values to your liking.
 
 Start the executable and have a smooth day !
 
-Here are config parameters explained:
+### Here are config parameters explained:
 
 start_on (1 or 0) Define if the smoothing starts right away or not.
 
@@ -42,7 +42,7 @@ decay_factor (between 0 and <1) Define the decay strengh. 0 would be no smoothin
 
 (*) To find the key or button code, press it when the program is running, it should be ouputed to the console window.
 
-### Notes:
+## Notes:
 
 The Interception driver is a low level driver, please evaluate the security vulnerabilities it could open for your use case.
 
