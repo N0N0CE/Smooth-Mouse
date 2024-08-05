@@ -40,7 +40,7 @@ activate_key_code (some code number*) Define the keyboard key that will act as t
 
 decay_factor (between 0 and <1) Define the decay strengh. 0 would be no smoothing, near 1 would be a very strong one. Pratical values are around 0.9
 
-(*) To find the key or button code, press it when the program is running, it should be ouputed on the console window.
+(*) To find the key or button code, press it when the program is running, it should be ouputed to the console window.
 
 ### Notes:
 
