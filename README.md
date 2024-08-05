@@ -52,4 +52,6 @@ Full screen softwares shouldn't prevent this from working though.
 
 Please keep your parameters's value range correct, the program do not checks them.
 
+Currently the smoothing will not be consistent if the refresh rate of the monitor is variable.
+
 The Nice And Clean Code committee rated the source code as hazardous materials, but it's there.
