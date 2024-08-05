@@ -24,7 +24,7 @@ Edit the config.cfg values to your liking.
 
 Start the executable and have a smooth day !
 
-### Here are config parameters explained:
+### Here are the config parameters explained:
 
 start_on (1 or 0) Define if the smoothing starts right away or not.
 
