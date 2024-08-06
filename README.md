@@ -1,7 +1,15 @@
 ![alt text](https://github.com/N0N0CE/Smooth-Mouse/blob/master/Smooth%20Mouse/Smooth%20Mouse.ico)
 
-This Windows program aims to give a good smoothing to the mouse input. To do so it syncs the mouse's refresh rate to the monitor's one, 
+This Windows program aims to give a good smoothing to the mouse input. To do so it syncs the mouse's refresh rate to the monitor's one,
 then it applies a simple decay function to the mouse's positions.
+
+## Why ?
+
+A smoothing that is temporally even (synced to the monitor) offers a better quality of mouse input motion. In games for example, this offer an
+improved image clarity for rotations or translations. Smoothing slows the mouse's reactivity though, so this program additionally offers a key
+shortcut to toggle this behaviour when it's not advantageous (mouse cursor interactions, fast paced aiming).
+
+Exemple of the mouse smoothing in action : https://www.youtube.com/watch?v=yRdbbxO-VuA
 
 ## State of the project:
 
@@ -38,19 +46,19 @@ activate_with_keyboard (1 or 0) Define if the keyboard's key can be used to acti
 
 activate_key_code (some code number*) Define the keyboard key that will act as the smooth button.
 
-decay_factor (between 0 and <1) Define the decay strengh. 0 would be no smoothing, near 1 would be a very strong one. Pratical values are around 0.9
+decay_factor (between 0 and <1) Define the decay strength. 0 would be no smoothing, near 1 would be a very strong one. Practical values are around 0.9
 
-(*) To find the key or button code, press it when the program is running, it should be ouputed to the console window.
+(*) To find the key or button code, press it when the program is running, it should be ouput to the console window.
 
 ## Notes:
 
 The Interception driver is a low level driver, please evaluate the security vulnerabilities it could open for your use case.
 
-The mouse's syncing works by tracking a dummy directX window. (That was ChatGPT's sugestion) 
+The mouse's syncing works by tracking a dummy DirectX window. (That was ChatGPT's suggestion)
 You must not close that window or minimize it if you want the smoothing to work.
 Full screen softwares shouldn't prevent this from working though.
 
-Please keep your parameters's value range correct, the program do not checks them.
+Please keep your parameters value range correct, the program do not checks them.
 
 Currently the smoothing will not be consistent if the refresh rate of the monitor is variable.
 
